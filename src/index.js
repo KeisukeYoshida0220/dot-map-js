@@ -2,26 +2,29 @@ import DottedMap from "dotted-map";
 
 // Create the map
 const map = new DottedMap({
-  width: 100,
+  width: 200,
   grid: "diagonal"
 });
 
 map.addPin({
   lat: -0.023559,
   lng: -73.935242,
-  svgOptions: { color: "#ff0000", radius: 0.4 }
+  svgOptions: { color: "#0080FF", radius: 0.4 }
+  // Research: can add link on pin via cms?
 });
 
 map.addPin({
   lat: 48.03891,
   lng: -106.14502,
-  svgOptions: { color: "#ff0000", radius: 0.4 }
+  svgOptions: { color: "#0080FF", radius: 0.4 }
+  // Research: can add link on pin via cms?
 });
 
 map.addPin({
   lat: 7.946527,
   lng: -1.023194,
-  svgOptions: { color: "#ff0000", radius: 0.4 }
+  svgOptions: { color: "#0080FF", radius: 0.4 }
+  // Research: can add link on pin via cms?
 });
 
 // // If you want to get the raw array of points
@@ -40,7 +43,7 @@ console.log(map);
 
 const svgMap = map.getSVG({
   radius: 0.22,
-  color: "#423B38",
+  color: "#D0D5DD",
   shape: "circle"
 });
 
